@@ -1,0 +1,63 @@
+.menuSuperior {
+    position: fixed;
+    float: top;
+    
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menuLateral {
+    position: fixed;
+    float: left;
+    margin-top: 10vh;
+
+
+    width: 20%;
+    height: 80vh;
+    background-color: rgb(26, 24, 24);
+    color: white;
+}
+
+.areaConteudo {
+    margin-left: 20%;
+    float: right;
+    margin-top: 10vh;
+
+    width: 80%;
+    height: 80vh;
+    background-color: lightgray;
+}
+
+.rodape {
+    position: fixed;
+    float: bottom;
+    margin-top: 90vh;
+
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial;
+}
+
+.menuSuperior p {
+    margin-right: 20px;
+}
+
+.menuLateral p,
+.areaConteudo p,
+.areaConteudo h1 {
+    margin-left: 20px;
+}
