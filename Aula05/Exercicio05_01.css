@@ -1,0 +1,32 @@
+body {
+    margin: 50px 200px;
+}
+
+h1 {
+    background-color: rgb(138, 102, 102);
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: "Lucida Sans";
+}
+
+h1:hover {
+    background-color: black;
+}
+
+section {
+    font-family: Arial;
+}
+
+p {
+    text-indent: 20px
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ol {
+    text-align: justify;
+}
