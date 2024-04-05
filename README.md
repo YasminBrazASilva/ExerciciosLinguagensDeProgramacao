@@ -94,3 +94,22 @@ Produto e mapeie esses produtos para um novo array com os preços aumentados em
 10. Crie um array de números e filtre apenas os números divisíveis por 3. Em seguida,
 mapeie esses números para o quadrado de seus valores. <br>
 <b> Resolução: [Exercicio02_10.js](Aula02/Exercicio02_10.js)<b>
+
+---
+## AULA 03
+
+1. Utilizando as tags para a marcação de texto definidas no slide “4- Web02 HTML 5”, crie uma
+página html com o formato abaixo: <br>
+![image](https://github.com/YasminBrazASilva/ExerciciosLinguagensDeProgramacao-AC1/assets/141586083/07ef2563-6500-4b57-bef8-27e03dabbc8a)
+
+<b> Resolução: [Exercicio03_01.html](Aula03/Exercicio03_01.html)<b>
+
+2. Crie a seguinte página abaixo: <br>
+![image](https://github.com/YasminBrazASilva/ExerciciosLinguagensDeProgramacao-AC1/assets/141586083/552c6888-cdf2-4d09-a117-04623926861b)
+
+<b> Resolução: [Exercicio03_02.html](Aula03/Exercicio03_02.html)<b>
+
+3. Monte o código necessário para as seguintes tabelas <br>
+![image](https://github.com/YasminBrazASilva/ExerciciosLinguagensDeProgramacao-AC1/assets/141586083/bca7b90c-2ae5-4e52-a402-1ed120dd8d59)
+
+<b> Resolução: [Exercicio03_03.html](Aula03/Exercicio03_03.html)<b>
