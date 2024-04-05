@@ -179,6 +179,47 @@ de CSS:” deve estar com seu texto em negrito e a letra deve ter o tamanho de 2
 7. Todo o conteúdo da página precisa ter um espaçamento superior e inferior de 50px e os
 lados precisam ter um espaçamento de 200px
 Como exemplo, segue um print de como a página ficará: <br>
-![image](https://github.com/YasminBrazASilva/ExerciciosLinguagensDeProgramacao-AC1/assets/141586083/a8531ea5-7003-4a3e-a5cc-3f1ac7cb69b7)
+![image](https://github.com/YasminBrazASilva/ExerciciosLinguagensDeProgramacao-AC1/assets/141586083/8095c2d1-3e13-4c50-aef5-90638f15e0b2)
 
 <b> Resolução: [Exercicio05_01.html](Aula05/Exercicio05_01.html), [Exercicio05_01.css](Aula05/Exercicio05_01.css)<b>
+
+---
+## AULA 06
+### Exercício 1
+1.	Crie uma estrutura HTML básica com uma <div> para a barra lateral e outra <div> para o conteúdo principal.
+2.	Estilize a barra lateral com as seguintes propriedades:
+•	Largura de 20% da largura total da página.
+•	Altura de 100% da altura da janela de visualização.
+•	Cor de fundo diferente da cor de fundo do conteúdo principal.
+•	Conteúdo de texto dentro da barra lateral, como links de navegação.
+3.	Estilize o conteúdo principal com as seguintes propriedades:
+•	Largura de 80% da largura total da página.
+•	Altura de 100% da altura da janela de visualização.
+•	Cor de fundo diferente da cor de fundo da barra lateral.
+•	Alinhe o conteúdo no centro vertical e horizontalmente.
+4.	Use a propriedade float para fazer com que a barra lateral flutue à esquerda e o conteúdo principal flutue à direita.
+5.	Use a propriedade position para posicionar a barra lateral e o conteúdo principal de forma que eles ocupem toda a altura da janela de visualização, independentemente do tamanho do conteúdo.
+6.	Teste o layout redimensionando a janela do navegador para verificar se ele é responsivo.
+
+Segue um exemplo: <br>
+![image](https://github.com/YasminBrazASilva/ExerciciosLinguagensDeProgramacao-AC1/assets/141586083/38a2cb5b-ca9e-4103-8771-c592f0e40e40)
+
+<b> Resolução: [Exercicio06_01.html](Aula06/Exercicio06_01.html), [Exercicio06_01.css](Aula06/Exercicio06_01.css)<b>
+
+### Exercício 2
+Crie uma página HTML que tenha a seguinte estrutura de layout:
+1.	Um menu superior fixo no topo da página.
+2.	Um menu lateral à esquerda que ocupe uma parte da largura da página.
+3.	Uma área de conteúdo à direita do menu lateral.
+4.	Um rodapé fixo na parte inferior da página.
+Use a propriedade position do CSS para posicionar os elementos da seguinte maneira:
+•	O menu superior deve ter position: fixed; para permanecer fixo no topo da página.
+•	O menu lateral deve ter position: fixed; para permanecer fixo à esquerda da página.
+•	A área de conteúdo deve ter margin-left para deixar espaço para o menu lateral e não ser ocultada por ele.
+•	O rodapé deve ter position: fixed; para permanecer fixo na parte inferior da página.
+Personalize os estilos e os conteúdos dos menus e do conteúdo conforme desejar.
+Segue um exemplo: <br>
+![image](https://github.com/YasminBrazASilva/ExerciciosLinguagensDeProgramacao-AC1/assets/141586083/005ba741-0bd0-4045-8a24-d6827c5ea620)
+
+<b> Resolução: [Exercicio06_02.html](Aula06/Exercicio06_02.html), [Exercicio06_02.css](Aula06/Exercicio06_02.css)<b>
+
