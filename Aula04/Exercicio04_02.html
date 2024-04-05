@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 10%;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="https://65eb9e5343ce1641893416ab.mockapi.io/api/v4207/escola" method="post">
+        <h2>Formulário de matrícula</h2>
+        
+        <div>
+            <label for="aluno_nome">Nome do aluno</label>
+            <input type="string" id="aluno_nome" name="aluno_nome" required>
+        </div>
+        
+        <div style="border: 2px solid black; padding: 8px; margin: 10px;">
+            <h4>Dados de endereço</h4>
+            <div>
+                <label for="aluno_endereco_cep">CEP</label>
+                <input type="string" id="aluno_endereco_cep" name="aluno_endereco_cep">
+            </div>
+            
+            <div>
+                <label for="aluno_endereco_logradouro">Rua</label>
+                <input type="string" id="aluno_endereco_logradouro" name="aluno_endereco_logradouro">
+            </div>
+            
+            <div>
+                <label for="aluno_endereco_numero">Número</label>
+                <input type="number" id="aluno_endereco_numero" name="aluno_endereco_numero" min="0">
+            </div>
+            
+            <div>
+                <label for="aluno_endereco_complemento">Complemento</label>
+                <input type="string" id="aluno_endereco_complemento" name="aluno_endereco_complemento">
+            </div>
+            
+            <div>
+                <label for="aluno_endereco_bairro">Bairro</label>
+                <input type="string" id="aluno_endereco_bairro" name="aluno_endereco_bairro">
+            </div>
+            
+            <div>
+                <label for="aluno_endereco_cidade">Cidade</label>
+                <input type="string" id="aluno_endereco_cidade" name="aluno_endereco_cidade">
+            </div>
+            
+            <div>
+                <label for="aluno_endereco_estado">Estado</label>
+                <select id="aluno_endereco_estado" name="aluno_endereco_estado">
+                    <option value="" disabled selected hidden>Selecione uma opção</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </div>
+        </div>
+        
+        <div style="border: 2px solid black; padding: 8px; margin: 10px;">
+            <h4>Dados de contato</h4>
+            <div>
+                <label for="aluno_contato_telefone">Telefone</label>
+                <input type="string" id="aluno_contato_telefone" name="aluno_contato_telefone">
+            </div>
+            
+            <div>
+                <label for="aluno_contato_celular">Celular</label>
+                <input type="string" id="aluno_contato_celular" name="aluno_contato_celular" required>
+            </div>
+            
+            <div>
+                <label for="aluno_contato_email">Email</label>
+                <input type="email" id="aluno_contato_email" name="aluno_contato_email" required>
+            </div>
+        </div>
+        
+        <div>
+            <label for="aluno_cor">Cor</label>
+            <select id="aluno_cor" name="aluno_cor" required>
+                <option value="" disabled selected hidden>Selecione uma opção</option>
+                <option value="branca">Branca</option>
+                <option value="preta">Preta</option>
+                <option value="parda">Parda</option>
+                <option value="amarela">Amarela</option>
+                <option value="indigena">Indígena</option>
+            </select>
+        </div>
+        
+        <div style="border: 2px solid black; padding: 8px; margin: 10px;">
+            <h4>Dados do pai</h4>
+            <div>
+                <label for="pai_nome">Nome</label>
+                <input type="string" id="pai_nome" name="pai_nome" required>
+            </div>
+            
+            <div>
+                <label for="pai_data_nascimento">Data de nascimento</label>
+                <input type="date" id="pai_data_nascimento" name="pai_data_nascimento">
+            </div>
+            
+            <div>
+                <label for="pai_naturalidade">Naturalidade</label>
+                <input type="string" id="pai_naturalidade" name="pai_naturalidade">
+            </div>
+            
+            <div>
+                <label for="pai_instrucao">Instrução</label>
+                <input type="string" id="pai_instrucao" name="pai_instrucao">
+            </div>
+            
+            <div>
+                <label for="pai_profissao">Profissão</label>
+                <input type="string" id="pai_profissao" name="pai_profissao">
+            </div>
+            
+            <div>
+                <label for="pai_contato_celular">Celular</label>
+                <input type="string" id="pai_contato_celular" name="pai_contato_celular" required>
+            </div>
+            
+            <div>
+                <label for="pai_contato_email">Email</label>
+                <input type="email" id="pai_contato_email" name="pai_contato_email" required>
+            </div>
+            
+            <div>
+                <label for="pai_cpf">CPF</label>
+                <input type="string" id="pai_cpf" name="pai_cpf" required>
+            </div>
+            
+            <div>
+                <label for="pai_responsavel_financeiro">É o responsável financeiro</label>
+                <select id="pai_responsavel_financeiro" name="pai_responsavel_financeiro">
+                    <option value="" disabled selected hidden>Selecione uma opção</option>
+                    <option value="true">Sim</option>
+                    <option value="false">Não</option>
+                </select>
+            </div>
+        </div>
+        
+        <div style="border: 2px solid black; padding: 8px; margin: 10px;">
+            <h4>Dados da mãe</h4>
+            <div>
+                <label for="mae_nome">Nome</label>
+                <input type="string" id="mae_nome" name="mae_nome" required>
+            </div>
+            
+            <div>
+                <label for="mae_data_nascimento">Data de nascimento</label>
+                <input type="date" id="mae_data_nascimento" name="mae_data_nascimento">
+            </div>
+            
+            <div>
+                <label for="mae_naturalidade">Naturalidade</label>
+                <input type="string" id="mae_naturalidade" name="mae_naturalidade">
+            </div>
+            
+            <div>
+                <label for="mae_instrucao">Instrução</label>
+                <input type="string" id="mae_instrucao" name="mae_instrucao">
+            </div>
+            
+            <div>
+                <label for="mae_profissao">Profissão</label>
+                <input type="string" id="mae_profissao" name="mae_profissao">
+            </div>
+            
+            <div>
+                <label for="mae_contato_celular">Celular</label>
+                <input type="string" id="mae_contato_celular" name="mae_contato_celular" required>
+            </div>
+            
+            <div>
+                <label for="mae_contato_email">Email</label>
+                <input type="email" id="mae_contato_email" name="mae_contato_email" required>
+            </div>
+            
+            <div>
+                <label for="mae_cpf">CPF</label>
+                <input type="string" id="mae_cpf" name="mae_cpf" required>
+            </div>
+            
+            <div>
+                <label for="mae_responsavel_financeiro">É o responsável financeiro</label>
+                <select id="mae_responsavel_financeiro" name="mae_responsavel_financeiro">
+                    <option value="" disabled selected hidden>Selecione uma opção</option>
+                    <option value="true">Sim</option>
+                    <option value="false">Não</option>
+                </select>            
+            </div>
+        </div>
+        
+        <div>
+            <label for="curso_codigo">Código do curso</label>
+            <input type="number" id="curso_codigo" name="curso_codigo" min="0" max="2" required>
+        </div>
+        <div>
+            <label for="curso_nome">Nome do curso</label>
+            <input type="string" id="curso_nome" name="curso_nome" required>
+        </div>
+        
+        <div>
+            <label for="curso_ingresso">Data de ingresso</label>
+            <input type="date" id="curso_ingresso" name="curso_ingresso" required>
+        </div>
+        
+        <div>
+            <label for="curso_valor">Valor do curso</label>
+            <input type="string" id="curso_valor" name="curso_valor" min="0" required>
+        </div>
+        
+        <div>
+            <label for="curso_pagamento">Forma de pagamento</label>
+            <select id="curso_pagamento" name="curso_pagamento" required>
+                <option value="" disabled selected hidden>Selecione uma opção</option>
+                <option value="pix">Pix</option>
+                <option value="boleto">Boleto bancário</option>
+                <option value="credito1x">Crédito 1x sem juros</option>
+                <option value="credito2x">Crédito 2x sem juros</option>
+                <option value="credito3x">Crédito 3x sem juros</option>
+            </select>
+        </div>
+
+        <div class="button" style="padding: 30px;">
+            <button type="submit">Enviar sua matrícula</button>
+        </div>
+    </form>
+</body>
+</html>
