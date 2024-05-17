@@ -1,0 +1,179 @@
+<!-- Yasmin Braz de Abreu Silva RA: 236632-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="Exercicio_12_01.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand ">Meu site</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+
+                <ul class="navbar-nav mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+                <img src="img_chacara_1.webp" class="d-block w-100" alt="Como fazer pipoca" style="filter: brightness(50%);">
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Chácara do Vô Veio</h1>
+                        <p>121.000 m² com muita vegetação, campo de futebol e um espaço de SPA</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img_chacara_2.jpg" class="d-block w-100" alt="Como fazer pipoca" style="filter: brightness(50%);">
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Chacrinha do Seu Antonio</h1>
+                        <p>20.000 m² com piscina e arborização</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img_chacara_3.jpg" class="d-block w-100" alt="Como fazer pipoca" style="filter: brightness(50%);">
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Chácara da Alegria</h1>
+                        <p>30.000 m² com muita vegetação e com um campo de futebol</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <div class="container marketing">
+        <div class="container divider mt-5 mb-5">
+            <h2>Nossos serviços</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="img_aluguel.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Chacara">
+
+                <h2>Aluguel e venda de chácaras</h2>
+                <p>Compre conosco e obtenha os melhores preços do mercado!</p>
+                <p><a class="btn btn-secondary" href="#">Orçar &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+                <img src="img_piscina.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Piscina">
+
+                <h2>Higienização de piscinas</h2>
+                <p>Higienizamos sua piscina em até 6 horas.</p>
+                <p><a class="btn btn-secondary" href="#">Orçar &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+
+            <div class="col-lg-4">
+                <img src="img_jardinagem.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="Jardinagem">
+
+                <h2>Roçagem e jardinagem</h2>
+                <p>Cuidamos da sua chácara como ninguém!</p>
+                <p><a class="btn btn-secondary" href="#">Orçar &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+        
+
+        
+          <div class="my-3 p-3 bg-body rounded shadow-sm">
+            <h6 class="border-bottom pb-2 mb-0">Depoimentos</h6>
+
+            <div class="d-flex text-muted pt-3">
+              <img src="img_giovanni.jpg" class="bd-placeholder-img rounded-circle flex-shrink-0 me-2 rounded" width="40" height="40" width="140" height="140" alt="Giovanni Helio">
+          
+
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">Giovanni Helio</strong>
+                Comprei uma chácara com eles no ano passado e não tive problemas, esse time é muito atencioso!!
+              </p>
+            </div>
+
+            <div class="d-flex text-muted pt-3">
+                <img src="img_iago.jpeg" class="bd-placeholder-img rounded-circle flex-shrink-0 me-2 rounded" width="40" height="40" width="140" height="140" alt="Iago Jesus">
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">Iago Jesus</strong>
+                Conheci eles pela indicação do meu primo e eles deixaram minha piscina brilhando, mais bonita do que quando construímos! Serviço incrível.
+              </p>
+            </div>
+
+            <div class="d-flex text-muted pt-3">
+                <img src="img_katia.webp" class="bd-placeholder-img rounded-circle flex-shrink-0 me-2 rounded" width="40" height="40" width="140" height="140" alt="Katia L. Martines">
+
+              <p class="pb-3 mb-0 small lh-sm border-bottom">
+                <strong class="d-block text-gray-dark">Katia L. Matines</strong>
+                O aluguel mais barato da região.
+              </p>
+            </div>
+
+            <small class="d-block text-end mt-3">
+              <a href="#">Todos os depoimentos</a>
+            </small>
+          </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

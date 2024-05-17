@@ -1,0 +1,95 @@
+<!-- Yasmin Braz de Abreu Silva RA: 236632-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Exercicio10_01.css">
+</head>
+
+<body>
+    <form action="https://65eb9e5343ce1641893416ab.mockapi.io/api/v4207/funcionarios" method="post">
+        <h2>Formulário para cadastro de funcionários</h2>
+
+        <div>
+            <label for="funcionario_nome">Nome do funcionário</label>
+            <input type="string" id="funcionario_nome" name="funcionario_nome" required>
+        </div>
+
+        <div>
+            <label for="funcionario_telefone">Telefone</label>
+            <input type="string" id="funcionario_telefone" name="funcionario_telefone">
+        </div>
+
+        <div>
+            <label for="funcionario_email">E-mail</label>
+            <input type="string" id="funcionario_email" name="funcionario_email">
+        </div>
+
+        <div>
+            <label for="funcionario_cpf">CPF</label>
+            <input type="number" id="funcionario_cpf" name="funcionario_cpf" min="0">
+        </div>
+
+        <div>
+            <label for="funcionario_rg">RG</label>
+            <input type="string" id="funcionario_rg" name="funcionario_rg">
+        </div>
+
+        <div>
+            <label for="cargo_nome">Cargo</label>
+            <select type="string" id="cargo_nome" name="cargo_nome">
+                <option value="" disabled selected hidden>Selecione uma opção</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="cargo_salario">Salário do cargo</label>
+            <input type="string" id="cargo_salario" name="cargo_salario" readonly>
+        </div>
+
+        <div>
+            <label for="setor_nome">Setor</label>
+            <select type="string" id="setor_nome" name="setor_nome">
+                <option value="" disabled selected hidden>Selecione uma opção</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="setor_sigla">Sigla do setor</label>
+            <input type="string" id="setor_sigla" name="setor_sigla" readonly>
+        </div>
+
+        <div>
+            <label for="convenio_nome">Convenio</label>
+            <select type="string" id="convenio_nome" name="convenio_nome">
+                <option value="" disabled selected hidden>Selecione uma opção</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="convenio_valor_titular">Valor do convenio por titular</label>
+            <input type="string" id="convenio_valor_titular" name="convenio_valor_titular" readonly>
+        </div>
+
+        <div>
+            <label for="convenio_valor_dependente">Valor do convenio por dependente</label>
+            <input type="string" id="convenio_valor_dependente" name="convenio_valor_dependente" readonly>
+        </div>
+
+        <input type="hidden" id="cargo_id" name="cargo_id">
+        <input type="hidden" id="setor_id" name="setor_id">
+        <input type="hidden" id="convenio_id" name="convenio_id">
+
+        <div class="button">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <script src="Exercicio10_01.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+/*Yasmin Braz de Abreu Silva RA: 236632*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+section, #containerPerguntas {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+
+.container {
+    margin: 10px;
+}
